@@ -1,0 +1,6 @@
+CHIP Zero16 {
+    OUT out[16];
+
+    PARTS:
+    Not16(in[0..15]=true, out=out);
+}
